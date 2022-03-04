@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compiler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h2 class="hh">Write Code Below</h2>
+        <select id="lang">
+            <option  hidden = ""><label>Choose Language</label></option>
+            <option class="options" value="7">C</option>
+            <option class="options" value="77">C++</option>
+            <option class="options" value="0">Python</option>
+            <option class="options" value="8">Java</option>
+            <option class="options" value="4">Javascript</option>
+        </select>
+    </div>
+    <textarea id="codebox" rows="30" cols ="220" placeholder="#write your code"></textarea>
+    <div>
+        <textarea id="outputbox" placeholder="Output will be displayed here" rows="8" cols="198"></textarea>
+    </div>
+    <button id="compile">Run</button>
+    <script src="script.js"></script>
+</body>
+
+</html>

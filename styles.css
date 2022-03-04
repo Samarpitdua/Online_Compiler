@@ -1,0 +1,53 @@
+body {
+    background-color: pink
+}
+#lang {
+    height: 30px;
+    font-style: italic;
+    margin: 20px 50px 0px 0px;
+}
+
+.hh {
+    text-decoration: solid;
+    text-transform: capitalize;
+    text-shadow: 5%;
+    font-style: italic;
+    margin-left: 650px;
+}
+
+.heading {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: crimson;
+}
+
+#outputbox {
+    margin: 8px;
+    width: 97%;
+    background-color: black;
+    color: white;
+}
+
+#compile:hover {
+    color: blue;
+}
+
+#codebox {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 97%;
+}
+
+#compile {
+    cursor: pointer;
+    /* background-color: green;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none; */
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
